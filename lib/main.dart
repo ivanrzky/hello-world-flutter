@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.white,
         body: Center(
           child: Text(
-            'Hello, World!',
+            'Hello World!',
             style: TextStyle(fontSize: 28, fontWeight: FontWeight.w600),
           ),
         ),
