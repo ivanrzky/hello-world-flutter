@@ -29,11 +29,11 @@ class LinearLayoutPage extends StatelessWidget {
           children: [
             // Bagian Header (kuning)
             Container(
-              height: 150,
+              height: 100,
               color: Colors.yellow,
               alignment: Alignment.center,
               child: const Text(
-                'Header Section',
+                'Hello, Flutter!',
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
             ),
@@ -44,7 +44,7 @@ class LinearLayoutPage extends StatelessWidget {
               padding: const EdgeInsets.all(8),
               child: Column(
                 children: List.generate(
-                  3,
+                  5,
                   (index) => Container(
                     margin: const EdgeInsets.symmetric(vertical: 5),
                     height: 60,
@@ -92,7 +92,7 @@ class LinearLayoutPage extends StatelessWidget {
               padding: const EdgeInsets.all(8.0),
               child: Column(
                 children: List.generate(
-                  10, // jumlah thumbnail
+                  76, // jumlah thumbnail
                   (index) => Card(
                     elevation: 3,
                     margin: const EdgeInsets.symmetric(vertical: 8),
